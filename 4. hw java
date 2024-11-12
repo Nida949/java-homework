@@ -1,0 +1,18 @@
+write a program to input a number.display all the digits of the number by using while loop
+import java.util.*;
+class hwpg191q5
+{
+    public static void main ()
+    {
+        Scanner sc=new Scanner (System.in);
+        System.out.println("enter any number");
+        int n=sc.nextInt(),d;
+        System.out.println("the digits are");
+        while(n>0)
+        {
+            d=n%10;
+            System.out.println(d);
+            n=n/10;
+        }
+    }
+}
