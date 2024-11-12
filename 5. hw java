@@ -1,0 +1,28 @@
+write a program to input a number. display all the digits of the number by stating whether it is an even or an odd digit by using do while loop.
+import java.util.*;
+class pg193q6
+{
+    public static void main()
+    {
+        Scanner sc=new Scanner(System.in);
+        int a,n;
+        System.out.println("enter a no.");
+        n=sc.nextInt();
+        
+        do
+        {
+            a=n%10;
+            if(a%2==0)
+            {
+                System.out.println("even number" +a);
+            }
+            else
+            {
+                System.out.println("odd number" +a);
+            }
+            n=n/10;
+        }
+        while(n>0);
+        
+    }
+}
