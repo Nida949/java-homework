@@ -1,0 +1,28 @@
+import java.util.*;
+class hwpg198q9
+{
+    public static void main()
+    {
+        Scanner sc=new Scanner (System.in);
+        int i;
+        do
+        {
+            System.out.println("enter any number or 0 to terminate");
+            i=sc.nextInt();
+            if(i==0)
+            {
+                break;
+            }
+            if(i>0)
+            {
+                System.out.println(i+"is a positive number");
+            }
+            else
+            {
+                 System.out.println(i+"is a negative number");
+            }
+        }
+        while(true);
+        System.out.println("System terminates");
+    }
+}
