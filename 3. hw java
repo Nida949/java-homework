@@ -1,0 +1,20 @@
+write a program to acc ept any 10 numbers. display the sum of only the negative numbers 
+import java.util.*;
+class hwpg190q4
+{
+    public static void main ()
+    {
+         Scanner sc=new Scanner (System.in);
+        int n=0,s=0,a=1;
+        while(a<=10)
+        {
+            n=sc.nextInt();
+            if(n<0)
+           {
+           s+=n;
+           }
+           a++;
+        }
+        System.out.println("The sum is " +s);
+    }
+}
