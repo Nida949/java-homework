@@ -1,0 +1,21 @@
+write a program in java to display the sum of any two numbers for ten iterations . if the sum of two numbers is negative then the program will terminate.
+  import java.util.*;
+class pg195
+{
+    public static void main()
+    {
+        Scanner sc=new Scanner (System.in);
+        int a,b,c,i;
+        for(i=1;i<=10;i++)
+        {
+            System.out.println("enter any two numbers");
+            a=sc.nextInt();
+            b=sc.nextInt();
+            c=a+b;
+            if(c<0)
+            break;
+            System.out.println("the sum of two numbers is " + c);
+        }
+
+    }
+}
