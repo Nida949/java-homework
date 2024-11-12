@@ -1,0 +1,30 @@
+import java.util.*;
+class hwpg196q8
+{
+    public static void main()
+    {
+        Scanner sc = new Scanner (System.in);
+        int n;
+        double p;
+        while(true)
+        {
+            System.out.println("enter a positive number or 0 to terminate");
+            n=sc.nextInt();
+            if(n==0)
+            {
+            
+                break;
+            }
+            p=Math.sqrt(n);
+            if((int)p*p==n)
+            {
+                System.out.println(n+"is a perfect sqaure number");
+            }
+            else
+            {
+                System.out.println(n+"is not a perfect sqaure");
+            }
+        }
+        System.out.println("System terminates");
+    }
+}
