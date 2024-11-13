@@ -1,0 +1,19 @@
+import java.util.*;
+class hwpg203q12
+{
+    public static void main()
+    {
+        Scanner sc = new Scanner (System.in);
+        int a=0;
+        do
+        {
+            a++;
+            if(a%2!=0)
+            {
+                continue;
+            }
+            System.out.println(a);
+        }
+        while(a<=10);
+    }
+}
