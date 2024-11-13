@@ -1,0 +1,16 @@
+import java.util.*;
+class hwpg214q13
+{
+    public static void main()
+    {
+        Scanner sc = new Scanner (System.in);
+        int a,m=0,n;
+        System.out.println("enter the value of n");
+        n=sc.nextInt();
+        for(a=1;a<=n;a++)
+        {
+            m=m+a;
+            System.out.println("the sum of natural numbers up to " +n+ "=" +m);
+    }
+}
+}
