@@ -1,0 +1,16 @@
+import java.util.*;
+class hwpg214q14
+{
+    public static void main()
+    {
+        Scanner sc = new Scanner (System.in);
+        int a,m=0,n;
+        for(a=1;a<=10;a++)
+        {
+            System.out.println("enter a number");
+            n=sc.nextInt();
+            m=m+n;
+        }
+        System.out.println("the sum of numbers =" +m);
+  }
+}
