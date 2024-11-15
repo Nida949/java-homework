@@ -1,0 +1,17 @@
+import java.util.*;
+class hwpg210q3
+{
+    public static void main()
+    {
+       Scanner sc=new Scanner(System.in);
+        int a,n;
+        double s=0;
+        System.out.println("enter the value of n");
+        n=sc.nextInt();
+        for(a=1;a<=n;a++)
+        {
+              s=s+1.0/Math.pow(2,a);
+            System.out.println("the sum of series=" +s);
+        }
+    }
+}
