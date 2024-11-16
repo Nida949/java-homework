@@ -1,0 +1,17 @@
+import java.util.*;
+class hw212q6
+{
+    public static void main()
+    {
+        Scanner sc= new Scanner(System.in);
+        int a,n,p=1,s=0;
+        System.out.println("enter the value of n");
+        n=sc.nextInt();
+        for(a=1;a<=n;a++)
+        {
+            p=p*a;
+            s=s+p;
+        }
+        System.out.println("the sum of series =" +s);
+    }
+}
